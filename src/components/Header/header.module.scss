@@ -1,0 +1,42 @@
+.header {
+  padding: 20px 40px;
+  background: #36363631;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  max-height: 100px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.link {
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.link:hover {
+  color: #0044ff;
+}
+
+.authorization {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #0044ff;
+  color: #fff;
+  margin-left: auto;
+  border-radius: 10px;
+  opacity: .8;
+  cursor: pointer;
+}
+
+.authorization:hover {
+  opacity: 1;
+}

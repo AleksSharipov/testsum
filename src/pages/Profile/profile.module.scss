@@ -1,0 +1,23 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background: #fff; 
+  padding: 20px 40px;
+  border-radius: 10px;
+
+  h2{
+    margin-bottom: 10px;
+  }
+
+  .logout {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #0044ff;
+    color: #fff;
+    margin-left: auto;
+    border-radius: 10px;
+    opacity: .8;
+    cursor: pointer;
+  }
+}
